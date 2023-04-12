@@ -56,6 +56,21 @@ para("Asad Ahmed Sheikh");
 para("This is a paragraph");
 
 
+// 4. Write a function that adds a new list item to an unordered list in an HTML
+// document. The function should take a string argument that will be used as
+// the text content of the new list item
+
+
+function getLi(text){
+    let getUl = document.getElementById('container');
+    let li = document.createElement("li");
+    document.body.append(li);
+}
+
+
+getLi("Hello this is steve");
+
+
 // 7. Write a function that retrieves an object from localStorage. The function
 // should take one argument, which is a string representing the key used to
 // store the object. The function should return the object.
